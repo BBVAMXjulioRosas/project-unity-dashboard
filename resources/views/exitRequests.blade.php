@@ -1,0 +1,1 @@
+este es el hash para crear la contraseña {{ $hash }}

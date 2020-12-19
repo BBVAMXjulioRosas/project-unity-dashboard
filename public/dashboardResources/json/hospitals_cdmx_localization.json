@@ -1,0 +1,130 @@
+[
+    {
+        "estado": "Azcapotzalco",
+        "id": "2",
+        "latitud": 19.498138,
+        "longitud": -99.203406,
+        "name_center": "HOSPITAL MATERNO INFANTIL DR. NICOLÁS M. CEDILLO",
+        "address_center": "Gustavo J. s/n, esq. Víctor Hernández, Covarrubias, Col. Unidad Francisco, Villa, C.P. 02400"
+    },
+    {
+        "estado": "Benito Juárez",
+        "id": "3",
+        "latitud": 19.360292,
+        "longitud": -99.16228,
+        "name_center": "HOSPITAL GENERAL XOCO",
+        "address_center": "Av. México Coyoacán s/n, esq. Bruno Traven, Col. General Pedro María Anaya, C.P. 03340"
+    },
+    {
+        "estado": "Coyoacán",
+        "id": "4",
+        "latitud": 19.345817,
+        "longitud": -99.168063,
+        "name_center": "HOSPITAL PEDIÁTRICO COYOACÁN",
+        "address_center": "Moctezuma No. 18, Col. Del Carmen Coyoacán, C.P. 04000"
+    },
+    {
+        "estado": "Cuajimalpa de Morelos",
+        "id": "5",
+        "latitud": 19.347684,
+        "longitud": -99.300847,
+        "name_center": "HOSPITAL MATERNO INFANTIL CUAJIMALPA",
+        "address_center": "Av. 16 de septiembre s/n, Col. El Contadero, C.P. 05500"
+    },
+    {
+        "estado": "Cuauhtémoc",
+        "id": "6",
+        "latitud": 19.437714,
+        "longitud": -99.129575,
+        "name_center": "HOSPITAL GENERAL GREGORIO SALAS",
+        "address_center": "Calle del Carmen No. 42, Col. Centro, C.P. 06020"
+    },
+    {
+        "estado": "Gustavo A. Madero",
+        "id": "7",
+        "latitud": 19.480091,
+        "longitud": -99.103356,
+        "name_center": "HOSPITAL GENERAL LA VILLA",
+        "address_center": "Av. Emiliano Zapata No. 17, Col. Cuautepec Barrio Bajo, C.P. 07210"
+    },
+    {
+        "estado": "Iztacalco",
+        "id": "8",
+        "latitud": 19.402727,
+        "longitud": -99.117633,
+        "name_center": "HOSPITAL PEDIÁTRICO IZTACALCO",
+        "address_center": "Av. Coyuya y Terraplén del Río Frío, Col. La Cruz, C.P. 08310"
+    },
+    {
+        "estado": "Iztapalapa",
+        "id": "9",
+        "latitud": 19.307162,
+        "longitud": -99.065344,
+        "name_center": "HOSPITAL DE ESPECIALIDADES DR. BELISARIO DOMÍNGUEZ",
+        "address_center": "Tláhuac No. 4866, esq. Zacatlán de las Manzanas, Col. San Lorenzo Tezonco"
+    },
+    {
+        "estado": "La Magdalena Contreras",
+        "id": "10",
+        "latitud": 19.319359,
+        "longitud": -99.239095,
+        "name_center": "HOSPITAL MATERNO INFANTIL MAGDALENA CONTRERAS",
+        "address_center": "Av. Luis Cabrera No. 619, Col. San Jerónimo Lídice, C.P. 10200"
+    },
+    {
+        "estado": "Miguel Hidalgo",
+        "id": "11",
+        "latitud": 19.451404,
+        "longitud": -99.169559,
+        "name_center": "HOSPITAL GENERAL RUBÉN LEÑERO",
+        "address_center": "Plan de San Luis y Prolongación Salvador Díaz Mirón s/n, Col. Santo Tomás, C.P. 11340"
+    },
+    {
+        "estado": "Milpa Alta",
+        "id": "12",
+        "latitud": 19.200967,
+        "longitud": -99.011202,
+        "name_center": "HOSPITAL GENERAL MILPA ALTA",
+        "address_center": "Blvd. Prolongación Nuevo León No. 386, Col. Villa Milpa Alta, C.P. 12000"
+    },
+    {
+        "estado": "Tlalpan",
+        "id": "14",
+        "latitud": 19.293372,
+        "longitud": -99.166724,
+        "name_center": "CENTRO DE SALUD T-III DR. JOSÉ CASTRO VILLAGRANA",
+        "address_center": "Carrasco, esq. Coapa s/n, Col. Toriello Guerra, C.P. 14050"
+    },
+    {
+        "estado": "Tláhuac",
+        "id": "13",
+        "latitud": 19.265117,
+        "longitud": -98.997957,
+        "name_center": "HOSPITAL MATERNO INFANTIL TLÁHUAC",
+        "address_center": "Av. Tláhuac Chalco No. 231, Col. La Habana, C.P. 13050"
+    },
+    {
+        "estado": "Venustiano Carranza",
+        "id": "15",
+        "latitud": 19.42417,
+        "longitud": -99.115413,
+        "name_center": "HOSPITAL GENERAL BALBUENA",
+        "address_center": "Cecilio Robelo y Sur 103, Col. Aeronáutica Militar, C.P. 15970"
+    },
+    {
+        "estado": "Xochimilco",
+        "id": "16",
+        "latitud": 19.254578,
+        "longitud": -99.104556,
+        "name_center": "HOSPITAL MATERNO INFANTIL XOCHIMILCO",
+        "address_center": "Calzada Nativitas y 16 de Septiembre s/n, Col. Barrio Xaltocan, C.P. 16090"
+    },
+    {
+        "estado": "Álvaro Obregón",
+        "id": "1",
+        "latitud": 19.359483,
+        "longitud": -99.231376,
+        "name_center": "CENTRO DE SALUD T-I HERÓN PROAL",
+        "address_center": "Av. Centenario No. 1225, col. Herón Proal, C.P. 01640"
+    }
+]

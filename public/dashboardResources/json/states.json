@@ -1,0 +1,226 @@
+[{
+        "estado": "Aguascalientes",
+        "id": "01",
+        "latitud": 21.8823395,
+        "longitud": -102.2825928,
+        "zoom": 9
+    },
+    {
+        "estado": "Baja California",
+        "id": "02",
+        "latitud": 30.8406338,
+        "longitud": -115.2837585,
+        "zoom": 6
+    },
+    {
+        "estado": "Baja California Sur",
+        "id": "03",
+        "latitud": 26.0444446,
+        "longitud": -111.6660725,
+        "zoom": 6
+    },
+    {
+        "estado": "Campeche",
+        "id": "04",
+        "latitud": 19.8438606,
+        "longitud": -90.5255432,
+        "zoom": 7
+
+    },
+    {
+        "estado": "Coahuila de Zaragoza",
+        "id": "05",
+        "latitud": 27.058676,
+        "longitud": -101.7068294,
+        "zoom": 6
+    },
+    {
+        "estado": "Colima",
+        "id": "06",
+        "latitud": 19.231953,
+        "longitud": -103.685831,
+        "zoom": 9
+    },
+    {
+        "estado": "Chiapas",
+        "id": "07",
+        "latitud": 16.757426,
+        "longitud": -93.084322,
+        "zoom": 7
+    },
+    {
+        "estado": "Chihuahua",
+        "id": "08",
+        "latitud": 28.6329957,
+        "longitud": -106.0691004,
+        "zoom": 6
+    },
+    {
+        "estado": "Ciudad de México",
+        "id": "09",
+        "latitud": 19.317183,
+        "longitud": -99.132337,
+        "zoom": 10
+    },
+    {
+        "estado": "Durango",
+        "id": "10",
+        "latitud": 24.7277202,
+        "longitud": -104.6531759,
+        "zoom": 7
+    },
+    {
+        "estado": "Guanajuato",
+        "id": "11",
+        "latitud": 21.088388,
+        "longitud": -101.62053,
+        "zoom": 8
+    },
+    {
+        "estado": "Guerrero",
+        "id": "12",
+        "latitud": 17.6391926,
+        "longitud": -99.5450974,
+        "zoom": 8
+    },
+    {
+        "estado": "Hidalgo",
+        "id": "13",
+        "latitud": 20.516057,
+        "longitud": -98.779435,
+        "zoom": 8
+    },
+    {
+        "estado": "Jalisco",
+        "id": "14",
+        "latitud": 20.717899,
+        "longitud": -103.370851,
+        "zoom": 7
+    },
+    {
+        "estado": "México",
+        "id": "15",
+        "latitud": 19.27225,
+        "longitud": -99.657532,
+        "zoom": 8
+    },
+    {
+        "estado": "Michoacán de Ocampo",
+        "id": "16",
+        "latitud": 19.191872,
+        "longitud": -101.655713,
+        "zoom": 8
+    },
+    {
+        "estado": "Morelos",
+        "id": "17",
+        "latitud": 18.699157,
+        "longitud": -99.164211,
+        "zoom": 9
+    },
+    {
+        "estado": "Nayarit",
+        "id": "18",
+        "latitud": 21.879323,
+        "longitud": -104.848494,
+        "zoom": 8
+    },
+    {
+        "estado": "Nuevo León",
+        "id": "19",
+        "latitud": 25.558083,
+        "longitud": -100.215343,
+        "zoom": 7
+    },
+    {
+        "estado": "Oaxaca",
+        "id": "20",
+        "latitud": 16.911002,
+        "longitud": -96.723896,
+        "zoom": 7
+    },
+    {
+        "estado": "Puebla",
+        "id": "21",
+        "latitud": 18.985446,
+        "longitud": -98.240798,
+        "zoom": 7
+    },
+    {
+        "estado": "Querétaro",
+        "id": "22",
+        "latitud": 20.625599,
+        "longitud": -100.003385,
+        "zoom": 8
+    },
+    {
+        "estado": "Quintana Roo",
+        "id": "23",
+        "latitud": 19.530631,
+        "longitud": -88.310181,
+        "zoom": 7
+    },
+    {
+        "estado": "San Luis Potosí",
+        "id": "24",
+        "latitud": 22.121873,
+        "longitud": -100.936861,
+        "zoom": 7
+    },
+    {
+        "estado": "Sinaloa",
+        "id": "25",
+        "latitud": 24.817023,
+        "longitud": -107.427057,
+        "zoom": 7
+    },
+    {
+        "estado": "Sonora",
+        "id": "26",
+        "latitud": 29.2972247,
+        "longitud": -110.3308814,
+        "zoom": 6
+    },
+    {
+        "estado": "Tabasco",
+        "id": "27",
+        "latitud": 18.011277,
+        "longitud": -92.922598,
+        "zoom": 8
+    },
+    {
+        "estado": "Tamaulipas",
+        "id": "28",
+        "latitud": 23.71986,
+        "longitud": -99.148378,
+        "zoom": 6
+    },
+    {
+        "estado": "Tlaxcala",
+        "id": "29",
+        "latitud": 19.4050,
+        "longitud": -98.247078,
+        "zoom": 10
+    },
+    {
+        "estado": "Veracruz de Ignacio de la Llave",
+        "id": "30",
+        "latitud": 19.167934,
+        "longitud": -96.228882,
+        "zoom": 6
+    },
+    {
+        "estado": "Yucatán",
+        "id": "31",
+        "latitud": 20.979616,
+        "longitud": -89.586998,
+        "zoom": 7
+    },
+    {
+        "estado": "Zacatecas",
+        "id": "32",
+        "latitud": 22.745212,
+        "longitud": -102.499041,
+        "zoom": 7
+    }
+]

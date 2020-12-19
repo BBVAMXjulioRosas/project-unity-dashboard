@@ -1,0 +1,348 @@
+/*
+* @author David Manrique Romero
+*/
+
+@font-face {
+    font-family: 'Typold Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Typold Regular"), url("/dashboardResources/fonts/The Northern Block Ltd - Typold Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Typold ExtraThin';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Typold ExtraThin"), url("/dashboardResources/fonts/The Northern Block Ltd - Typold ExtraThin.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Typold Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Typold Light"), url("/dashboardResources/fonts/The Northern Block Ltd - Typold Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/dashboardResources/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/dashboardResources/fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/dashboardResources/fonts/Montserrat-Medium.ttf");
+}
+
+.title-centros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textoSub {
+    font-family: 'Montserrat Medium';
+    font-size: 19px;
+}
+
+.dateUpdate {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    padding-top: 2px;
+}
+
+.dateUpdate p {
+    margin-right: 12px;
+    font-family: 'Montserrat Light';
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.dateUpdate p:nth-child(2) {
+    margin-right: 35px;
+}
+
+.container-map {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-pruebas {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 250px !important;
+}
+
+.info-pruebas p {
+    margin: 0;
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+.dott {
+    height: 12px;
+    width: 12px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+img {
+    height: 544px;
+    width: 800px;
+    margin-right: 160px;
+}
+
+.select-component select {
+    -webkit-appearance: none;
+    margin-top: 5px;
+    font-family: 'Montserrat Bold';
+    font-size: 12px;
+}
+
+.select-component {
+    margin-bottom: 20px;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+}
+
+.data-numeric {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardDataNumeric {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 7%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D1D0CF;
+    font-size: 12px;
+    width: 140px;
+}
+
+.dot {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.doti {
+    height: 20px;
+    width: 20px;
+    border-radius: 7px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-capacity {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-capacity div {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+
+#tableCentrosSalud tr td,
+#tableCentrosSalud tr th {
+    text-align: center;
+}
+
+#tableCentrosSalud tr td {
+    font-family: 'Montserrat Light';
+    font-size: 12px;
+}
+
+#tableBodyCentros tr td:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+}
+
+.txtData {
+    font-size: 25px;
+}
+
+.dataTables_info {
+    display: none;
+}
+
+.map-html {
+    width: 85%;
+}
+
+.map-cdmx-html {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.container-calendar {
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-family: 'Montserrat Medium';
+
+}
+
+.container-calendar input {
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    background: #e4e4e4 !important;
+    border: none;
+    width: 140px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=date] {
+    -moz-appearance: textfield;
+}
+
+.btnSearch {
+    background-color: #e4e4e4;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    height: 35px;
+    border: none;
+}
+
+.btn-clean img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.btn-clean img:hover {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+    background-color: #e4e4e4;
+}
+
+.panel-title {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+.glyphicon.glyphicon-chevron-down,
+.glyphicon.glyphicon-chevron-up {
+    color: black;
+}
+
+.glyphicon.glyphicon-calendar {
+    position: relative;
+    left: -28px;
+    top: 2px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: block;
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    z-index: 99;
+}
+
+#footerTable {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalRegistros {
+    margin-top: 10px;
+}
+
+.paginate {
+    display: flex;
+}
+
+.paginate span {
+    text-align: center;
+    width: 20px !important;
+    height: 24px !important;
+    border: 1px solid black;
+    border: none;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+.paginate span:hover {
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: #CFCFCF;
+}
+
+.paginate span.current {
+    background: #A5290F;
+    color: white;
+    border: none;
+    margin-right: 15px;
+}
+
+.paginate .arrow_page {
+    font-size: 22px;
+    background: #A5290F;
+    color: white;
+}
+
+.paginate span.current:hover {
+    cursor: default;
+}
+
+.paginate span.show_page {
+    display: block;
+}
+
+.paginate span.hide_page {
+    display: none;
+}
+
+.img-map {
+    height: 544px;
+    width: 800px;
+}

@@ -1,0 +1,601 @@
+@font-face {
+    font-family: 'Typold Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Typold Regular"), url("/dashboardResources/fonts/The Northern Block Ltd - Typold Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Typold ExtraThin';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Typold ExtraThin"), url("/dashboardResources/fonts/The Northern Block Ltd - Typold ExtraThin.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Typold Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Typold Light"), url("/dashboardResources/fonts/The Northern Block Ltd - Typold Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/dashboardResources/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/dashboardResources/fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/dashboardResources/fonts/Montserrat-Medium.ttf");
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    display: block;
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    z-index: 99;
+}
+
+.date {
+    position: relative;
+}
+
+.ul-menu {
+    margin-top: 0;
+}
+
+.head-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.title-content {
+    font-family: 'Montserrat Medium';
+    font-size: 19px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4d4d4d;
+}
+
+.subtitle-content {
+    font-family: 'Montserrat Medium';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4d4d4d;
+    margin-top: 14px;
+}
+
+.lastUpgrade {
+    font-family: 'Montserrat Light';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4d4d4d;
+}
+
+.filter-date {
+    display: flex;
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.filter-date-calendar {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-family: 'Typold Medium';
+}
+
+.filter-date-calendar input {
+    font-family: 'Typold Medium';
+    font-size: 12px;
+    background: #e4e4e4 !important;
+    border: none;
+    width: 140px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.filter-date-period {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.warning-graph {
+    margin-top: 20px;
+    color: #4d4d4d;
+    font-style: italic;
+    font-size: smaller;
+    display: flex;
+}
+
+.warning-graph img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+#ageRange .total {
+    font-weight: bold;
+}
+
+.select-component select {
+    -webkit-appearance: none;
+}
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=date]::-webkit-datetime-edit-month-field,
+input[type=date]::-webkit-datetime-edit-day-field,
+input[type=date]::-webkit-datetime-edit-year-field {
+    color: black;
+}
+
+.glyphicon.glyphicon-chevron-down,
+.glyphicon.glyphicon-chevron-up {
+    color: black;
+}
+
+.glyphicon.glyphicon-calendar {
+    position: relative;
+    left: 90%;
+    top: -24px;
+    color: black;
+}
+
+.cards {
+    text-align: center;
+}
+
+.card-info {
+    margin-bottom: 25px;
+}
+
+.card-content {
+    background-color: #F7F3EA;
+}
+
+.card-content div {
+    font-family: 'Montserrat Medium';
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: normal;
+}
+
+.card-content div:nth-child(1n) {
+    font-size: 12px;
+    color: #4D4D4B;
+}
+
+.card-content div:nth-child(2n) {
+    font-family: 'Montserrat Bold';
+    font-size: 20px;
+    color: #AD033C;
+}
+
+.card-content div:nth-child(3n) {
+    font-size: 12px;
+    color: #8E7A5D;
+    font-weight: 600;
+}
+
+
+.map-html {
+    width: 85%;
+}
+
+.map-cdmx-html {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.container-map {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dott {
+    height: 12px;
+    width: 12px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.info-pruebas {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 250px !important;
+}
+
+.info-pruebas p {
+    margin: 0;
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+.col-md-4 label {
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+}
+
+.select-component select {
+    -webkit-appearance: none;
+    margin-top: 0px;
+    font-family: 'Montserrat Bold';
+    font-size: 12px;
+}
+
+.title-filters {
+    margin-top: 30px;
+    line-height: 50px;
+}
+
+.container-calendar {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-family: 'Montserrat Medium';
+}
+
+.container-calendar input {
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    background: #e4e4e4 !important;
+    border: none;
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+#graphAge {
+    width: 90% !important;
+    font-family: 'Typold Medium';
+}
+
+.title-graph {
+    padding-top: 30px;
+}
+
+.container-upload {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.upload {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn.btn-info.upload-file {
+    background-color: #225b4e;
+    color: #FFFF;
+    border-color: transparent;
+    font-family: 'Montserrat Medium';
+    font-size: 15px;
+}
+
+.inputfile {
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Montserrat Medium';
+    background-color: #225b4e;
+    color: #FFFF;
+    border-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 38px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.upload p.legend {
+    font-family: 'Monserrat Ligth';
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 2px;
+}
+
+.btn.btn-info.download-file {
+    background-color: #b99465;
+    color: #FFFF;
+    border-color: transparent;
+    font-family: 'Montserrat Medium';
+    font-size: 15px;
+}
+
+#table-all-states th,
+#table-all-states td {
+    text-align: center;
+}
+
+#table-all-states div.light-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#table-all-states div.light-result {
+    display: flex;
+    align-items: center;
+}
+
+#table-all-states div.light-result div:nth-child(2),
+#table-all-states div.light-color div:nth-child(2) {
+    width: 60px;
+    display: flex;
+}
+
+#table-all-states div.light-result div.light-very-high,
+#table-all-states div.light-color div.light-very-high {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #ff0000;
+}
+
+#table-all-states div.light-result div.light-high,
+#table-all-states div.light-color div.light-high {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #fa7700;
+}
+
+#table-all-states div.light-result div.light-medium,
+#table-all-states div.light-color div.light-medium {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #edf100;
+}
+
+#table-all-states div.light-result div.light-low,
+#table-all-states div.light-color div.light-low {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #5db524;
+}
+
+#table-all-states div.light-color .select-component {
+    width: 135px;
+}
+
+.map-filter {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between
+}
+
+.map-content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn.btn-info.edit {
+    background-color: #192f2c;
+    color: #FFFF;
+    border-color: transparent;
+    font-size: 10px;
+    height: 30px;
+    width: 75px;
+}
+
+#map {
+    width: 80%;
+    height: 500px;
+}
+
+.glyphicon-back {
+    color: #FFFF;
+    margin-right: 5px;
+}
+
+
+.btn-save {
+    background-color: #902e3a !important;
+}
+
+.btn-save span {
+    display: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    font-family: "Montserrat Bold";
+    font-size: 14px;
+    color: #902e3a;
+    padding: 0px 5px 0px 5px;
+    margin-left: 15px;
+    display: inline;
+    border: 0px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    font-family: "Montserrat Bold";
+    font-size: 14px;
+    color: #902e3a;
+    padding: 0px 5px 0px 5px;
+    margin-left: 15px;
+    display: inline;
+    border: 0px;
+    background-color: transparent;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border: 0px;
+    background-color: transparent;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-content .type {
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-content .type .option-sel {
+    cursor: pointer;
+}
+
+.modal-content .type .option-sel:hover {
+    background-color: #F6F3EE;
+    border-radius: 10%;
+}
+
+.modal-content .type img {
+    height: 100px;
+}
+
+.modal-content .modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#modalNotice .modal-content {
+    border: 10px;
+}
+
+#modalNotice .modal-content .glyphicon {
+    display: none;
+}
+
+#modalNotice .success {
+    background-color: #67a877;
+    color: #fff;
+}
+
+#modalNotice .success .glyphicon-ok-circle {
+    display: block;
+}
+
+#modalNotice .error .glyphicon-remove-circle {
+    display: block;
+}
+
+#modalNotice .error {
+    background-color: #E8A592;
+    color: #8B0000;
+}
+
+#modalNotice .modal-content .modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#modalNotice .modal-content .modal-body .glyphicon {
+    font-size: 27px;
+}
+
+#modalNotice .modal-content .modal-body button {
+    border: 0px;
+    background-color: #67a877;
+    text-decoration: underline;
+}
+
+#modalNotice .success .modal-body button {
+    color: #fff;
+    background-color: #67a877;
+}
+
+#modalNotice .error .modal-body button {
+    color: #8B0000;
+    background-color: #E8A592;
+}
+
+.content-info-map {
+    margin-bottom: 5px;
+}
+
+.info-map {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.info-map h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend-map {
+    text-align: left;
+    line-height: 18px;
+    color: #555;
+}
+
+.legend-map i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}

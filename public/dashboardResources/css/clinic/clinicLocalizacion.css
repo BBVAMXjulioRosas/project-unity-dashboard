@@ -1,0 +1,106 @@
+/*
+* @author David Manrique Romero
+*/
+
+@font-face {
+    font-family: 'Typold Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Typold Regular"), url("/dashboardResources/fonts/The Northern Block Ltd - Typold Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Typold ExtraThin';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Typold ExtraThin"), url("/dashboardResources/fonts/The Northern Block Ltd - Typold ExtraThin.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Typold Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Typold Light"), url("/dashboardResources/fonts/The Northern Block Ltd - Typold Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/dashboardResources/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/dashboardResources/fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/dashboardResources/fonts/Montserrat-Medium.ttf");
+}
+
+.title-centros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-component select {
+    -webkit-appearance: none;
+    margin-top: 5px;
+    font-family: 'Montserrat Bold';
+    font-size: 12px;
+}
+
+.select-component {
+    margin-bottom: 20px;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+}
+
+.dateUpdate {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    padding-top: 2px;
+}
+
+.dateUpdate p {
+    margin-right: 12px;
+    font-family: 'Montserrat Ligth';
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.dateUpdate p:nth-child(2) {
+    margin-right: 35px;
+}
+
+.textoSub {
+    font-family: 'Montserrat Medium';
+    font-size: 19px;
+}
+
+#map-localizacion {
+    width: 100%;
+    height: 700px;
+}
+
+.infoWindowsMap {
+    font-family: 'Montserrat Medium';
+    margin-bottom: 2px;
+}
+
+.gm-style .gm-style-iw-c {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+}
+
+.gm-style .gm-style-iw-t::after {
+    display: none;
+}

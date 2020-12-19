@@ -1,0 +1,18 @@
+[
+    { "id": 2, "name": "Azcapotzalco", "stateID": 1, "municipality": "azcapotzalco" },
+    { "id": 3, "name": "Benito Juárez", "stateID": 1, "municipality": "benito_juarez" },
+    { "id": 4, "name": "Coyoacán", "stateID": 1, "municipality": "coyoacan" },
+    { "id": 5, "name": "Cuajimalpa de Morelos", "stateID": 1, "municipality": "cuajimalpa" },
+    { "id": 6, "name": "Cuauhtémoc", "stateID": 1, "municipality": "cuauhtemoc" },
+    { "id": 7, "name": "Gustavo A. Madero", "stateID": 1, "municipality": "gustavo_a_madero" },
+    { "id": 8, "name": "Iztacalco", "stateID": 1, "municipality": "iztacalco" },
+    { "id": 9, "name": "Iztapalapa", "stateID": 1, "municipality": "iztapalapa" },
+    { "id": 10, "name": "La Magdalena Contreras", "stateID": 1, "municipality": "magdalena_contreras" },
+    { "id": 11, "name": "Miguel Hidalgo", "stateID": 1, "municipality": "miguel_hidalgo" },
+    { "id": 12, "name": "Milpa Alta", "stateID": 1, "municipality": "milpaalta" },
+    { "id": 14, "name": "Tlalpan", "stateID": 1, "municipality": "tlalpan" },
+    { "id": 13, "name": "Tláhuac", "stateID": 1, "municipality": "tlahuac" },
+    { "id": 15, "name": "Venustiano Carranza", "stateID": 1, "municipality": "venustiano_carranza" },
+    { "id": 16, "name": "Xochimilco", "stateID": 1, "municipality": "xochimilco" },
+    { "id": 1, "name": "Álvaro Obregón", "stateID": 1, "municipality": "alvaro_obregon" }
+]
